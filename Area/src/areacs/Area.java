@@ -31,6 +31,7 @@ public class Area {
             else
             {
                 System.out.println("PROGRAM EXITING");
+                result=false;
             }
         }while(result);
     }
