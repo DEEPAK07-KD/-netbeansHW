@@ -38,16 +38,16 @@ public class BankAccount {
     public void deposite(double amount)
     {
         
-        amount=amount+balance;
+        balance=amount+balance;
         System.out.println(amount);
     }
     public void withdraw(double amount)
     {
         
         
-        if(balance<amount)
+        if(balance>amount)
         {
-           double with=amount-balance;
+           balance-=amount;
             System.out.println(with);
         }
     }
