@@ -39,8 +39,7 @@ public class Bank {
             }
             else if(op==3)
             {
-                ba.setBalance(bal);
-                ba.getBalance();
+                
                 ba.displayAccountDetails();
             }
             else
