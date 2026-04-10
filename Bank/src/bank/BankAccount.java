@@ -48,11 +48,8 @@ public class BankAccount {
         if(balance>amount)
         {
            balance-=amount;
-<<<<<<< HEAD
             System.out.println(amount);
-=======
-            System.out.println(with);
->>>>>>> 2263f253c24cdc8a141dcb8853f9e5a87850abde
+            
         }
     }
     public void displayAccountDetails()
