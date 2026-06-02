@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="192.0" prefWidth="311.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.FXMLDocumentController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="132.0" prefWidth="398.0" spacing="10.0">
+         <children>
+            <TextField fx:id="calculate" alignment="CENTER" prefHeight="25.0" prefWidth="258.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </TextField>
+            <HBox prefHeight="130.0" prefWidth="284.0">
+               <children>
+                  <VBox prefHeight="100.0" prefWidth="53.0" spacing="10.0">
+                     <children>
+                        <Button fx:id="num7" alignment="CENTER" mnemonicParsing="false" onAction="#click7" prefHeight="25.0" prefWidth="54.0" text="7" />
+                        <Button fx:id="num4" alignment="CENTER" mnemonicParsing="false" onAction="#click4" prefHeight="25.0" prefWidth="60.0" text="4" />
+                        <Button fx:id="num3" alignment="CENTER" mnemonicParsing="false" onAction="#click3" prefHeight="25.0" prefWidth="58.0" text="3" />
+                        <Button fx:id="num0" alignment="CENTER" mnemonicParsing="false" onAction="#click0" prefHeight="25.0" prefWidth="55.0" text="0" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="100.0" prefWidth="50.0" spacing="10.0">
+                     <children>
+                        <Button fx:id="num8" alignment="CENTER" mnemonicParsing="false" onAction="#click8" prefHeight="25.0" prefWidth="54.0" text="8" />
+                        <Button fx:id="num5" alignment="CENTER" mnemonicParsing="false" onAction="#click5" prefHeight="25.0" prefWidth="63.0" text="5" />
+                        <Button fx:id="num2" alignment="CENTER" mnemonicParsing="false" onAction="#click2" prefHeight="25.0" prefWidth="68.0" text="2" />
+                        <Button fx:id="clear" alignment="CENTER" mnemonicParsing="false" onAction="#clear" prefHeight="25.0" prefWidth="62.0" text="C" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="130.0" prefWidth="53.0" spacing="10.0">
+                     <children>
+                        <Button fx:id="num9" mnemonicParsing="false" onAction="#click9" prefHeight="25.0" prefWidth="55.0" text="9" />
+                        <Button fx:id="num6" mnemonicParsing="false" onAction="#click6" prefHeight="25.0" prefWidth="61.0" text="6" />
+                        <Button fx:id="num1" mnemonicParsing="false" onAction="#click1" prefHeight="25.0" prefWidth="62.0" text="1" />
+                        <Button fx:id="total" mnemonicParsing="false" onAction="#sumTotal" prefHeight="25.0" prefWidth="55.0" text="=" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="130.0" prefWidth="53.0" spacing="10.0">
+                     <children>
+                        <Button fx:id="addtion" mnemonicParsing="false" onAction="#clickplus" prefHeight="25.0" prefWidth="57.0" text="+" />
+                        <Button fx:id="subtraction" mnemonicParsing="false" onAction="#climinus" prefWidth="59.0" text="-" />
+                        <Button fx:id="multipulication" mnemonicParsing="false" onAction="#clickstar" prefHeight="25.0" prefWidth="56.0" text="*" />
+                        <Button fx:id="divide" mnemonicParsing="false" onAction="#clickslash" prefHeight="25.0" prefWidth="56.0" text="/" />
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets left="80.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+         <HBox.margin>
+            <Insets />
+         </HBox.margin>
+      </VBox>
+   </children>
+</HBox>
